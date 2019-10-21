@@ -40,7 +40,7 @@
         android:id="@+id/truth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Да-да, скрипт я слизал с codinginflow.com. Я мудак" />
+        android:text="@string/Truth1" />
 
     <Button
         android:onClick="intent"
