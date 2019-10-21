@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
     public void intent(View view) {
         Intent intent = new Intent (Intent.ACTION_SEND);
         intent.setType("message/rfc822");
-        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"anyMail@gmail.com"});
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Any subject if you want");
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"info@geekhub.com"});
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Some message, atvichayu");
         intent.setPackage("com.google.android.gm");
         if (intent.resolveActivity(getPackageManager())!=null)
             startActivity(intent);
